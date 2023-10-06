@@ -1,5 +1,5 @@
 * {
-    font-family: Oswald, Open-Sans;
+    font-family: Open sans;
 }
 
 header {
@@ -8,8 +8,9 @@ header {
     padding: 10px;
     border-bottom: solid 1px #89DEEF;
     font-weight: bold;
-    letter-spacing: 1px;
-    font-size: 100%;    
+    font-size: 150%;
+    width: auto;
+    height: 100%
 }
 
 p {
@@ -24,6 +25,7 @@ p {
 .dog-name {
     font-weight: bold;
     font-size: medium;
+    font-family: Oswald;
 }
 
 .dog-cards {
@@ -37,10 +39,9 @@ p {
 }
 
 .dog-traits ul {
-    font-size: xx-small
-    font-family: Open-Sans;
+    font-size: small;
     margin: 2px;
-    flex-wrap: wrap;
+    
 }
 
 .dog-traits-list li {
