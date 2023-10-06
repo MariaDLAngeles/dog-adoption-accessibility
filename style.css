@@ -41,6 +41,7 @@ p {
 .dog-traits ul {
     font-size: small;
     margin: 2px;
+    padding-inline-start: 0;
     
 }
 
@@ -54,6 +55,19 @@ p {
 
 footer {
     background-color: red;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6A9F0;
+    font-family: Oswald;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.center-info { 
+    flex: 1 1 auto;
 }
 
 #dog-data {
