@@ -1,7 +1,38 @@
+* {
+    font-family: Oswald, Open-Sans;
+}
+
 header {
     color: white;
     background-color: #004175;
-    padding: 20px;
-    border-bottom: solid 5px #89DEEF;
-    
+    padding: 10px;
+    border-bottom: solid 1px #89DEEF;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 100%;    
+}
+
+p {
+    font-size: small;
+}
+
+img {
+    width: 300px;
+}
+
+.dog-name {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.dog-traits {
+    font-size: xx-small;
+    font-weight: lighter;
+    margin: 5px 0;
+}
+
+mark {
+    background-color: #89DEEF;
+    border-radius: 30%;
+    padding: 2px;
 }
