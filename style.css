@@ -55,9 +55,8 @@ p {
 }
 
 footer {
-    background-color: red;
     display: flex;
-    background-color: #A6A9F0;
+    /* background-color: #A6A9F0; */
     font-family: Oswald;
     color: white;
     font-size: larger;
@@ -65,17 +64,50 @@ footer {
     
 }
 
-.center-info { 
+.donate { 
     flex: 1 1 auto;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background:
+        linear-gradient(
+            #A6A9F070,
+            #A6A9F070
+        ),
+        url(starter_files/images/donate.jpg);
+}
 
+.volunteer { 
+    flex: 1 1 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(
+            #A6A9F070,
+            #A6A9F070
+        ),
+        url(starter_files/images/volunteer.jpg);
+}
+
+.our-location { 
+    flex: 1 1 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(
+            #A6A9F070,
+            #A6A9F070
+        ),
+        url(starter_files/images/location.png);
 }
 
 #dog-data {
     display: flex;
     flex-wrap: wrap;
 }
+
