@@ -81,6 +81,7 @@ footer {
         url(starter_files/images/donate.jpg);
     background-size: cover;
     /* Not sure if cover is the correct thing to use  */
+    /* the images aren't perfectly even, how important is that? */
 }
 
 .volunteer { 
