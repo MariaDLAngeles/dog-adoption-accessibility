@@ -34,7 +34,7 @@ p {
     padding: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    border: 1px solid silver;
+    /* border: 1px solid silver; */
 
 }
 
@@ -56,7 +56,6 @@ p {
 
 footer {
     display: flex;
-    /* background-color: #A6A9F0; */
     font-family: Oswald;
     color: white;
     font-size: larger;
@@ -64,46 +63,44 @@ footer {
     
 }
 
-.donate { 
+.footer-item {
     flex: 1 1 auto;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.donate { 
     background:
         linear-gradient(
             #A6A9F070,
             #A6A9F070
         ),
+        /* Found out that transparency in hex codes is added to the very end as a % value */
         url(starter_files/images/donate.jpg);
+    background-size: cover;
+    /* Not sure if cover is the correct thing to use  */
 }
 
 .volunteer { 
-    flex: 1 1 auto;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background:
         linear-gradient(
             #A6A9F070,
             #A6A9F070
         ),
         url(starter_files/images/volunteer.jpg);
+    background-size: cover;
 }
 
 .our-location { 
-    flex: 1 1 auto;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background:
         linear-gradient(
             #A6A9F070,
             #A6A9F070
         ),
         url(starter_files/images/location.png);
+    background-size: cover;
 }
 
 #dog-data {
