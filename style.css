@@ -42,6 +42,7 @@ p {
     font-size: small;
     margin: 2px;
     padding-inline-start: 0;
+    /* inline padding was at 40px by default, not sure why  */
     
 }
 
@@ -56,18 +57,22 @@ p {
 footer {
     background-color: red;
     display: flex;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
     background-color: #A6A9F0;
     font-family: Oswald;
     color: white;
     font-size: larger;
     font-weight: bolder;
+    
 }
 
 .center-info { 
     flex: 1 1 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 #dog-data {
