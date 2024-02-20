@@ -1,20 +1,27 @@
 * {
     font-family: Open sans;
+    margin: 0px;
 }
 
 header {
     color: white;
     background-color: #004175;
     padding: 10px;
+    margin: 0px;
     border-bottom: solid 1px #89DEEF;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 175%;
     width: auto;
     height: 100%
 }
 
+h1 {
+    margin: 8px;
+}
+
 p {
-    font-size: small;
+    font-size: medium;
+    margin: 8px;
 }
 
 .dog-image {
