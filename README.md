@@ -1,4 +1,12 @@
+# Note from the Developer
+
+This page was forked from an existing assignment, created by Momentum Learning, and completed in late 2023. It has been updated from the original assignment to improve web accessibility.
+
+# Below is the Original README included with the assignment
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/HcIHbu_Q)
+
 # Build a Dog Adoption Site
 
 ## Directions

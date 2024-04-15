@@ -53,13 +53,13 @@ p {
     font-size: medium;
     margin: 2px;
     padding-inline-start: 0;
-    
+    /* inline padding was at 40px by default, not sure why  */
 }
 
 .dog-traits-list li {
     display: inline-block;
     background-color: #89DEEF;
-    border-radius: 25%;
+    border-radius: 20%;
     padding: 2px;
     margin: 2px;
 }
@@ -75,11 +75,10 @@ footer {
 
 .footer-item {
     flex: 1 1 auto;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .donate { 
@@ -91,8 +90,6 @@ footer {
         /* Found out that transparency in hex codes is added to the very end as a % value */
         url(starter_files/images/donate.jpg);
     background-size: cover;
-    /* Not sure if cover is the correct thing to use  */
-    /* the images aren't perfectly even, how important is that? */
 }
 
 .volunteer { 
